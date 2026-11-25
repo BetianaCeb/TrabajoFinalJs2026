@@ -1,0 +1,53 @@
+body{
+    background: rgb(218, 213, 214);
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.tarjeta{
+    background: white;
+    width: 320px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    border-top: 8px solid gray;
+}
+.tarjeta img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid salmon;
+}
+.tarjeta h1{
+    color: black;
+    font-size: 26px;
+    margin: 15px 0 5px 0;
+}
+.puesto{
+    color: burlywood;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.tarjeta a{
+    display: inline-block;
+    background: greenyellow;
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 999px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.atributo{
+    width: 100px;
+    height: 100px;
+    background: red;
+    padding: 10p 10px 10px 10 px;
+    margin: 50px;
+}
+.colores{
+    width: 100px;
+    height: 100px;
+    background: red;
+}

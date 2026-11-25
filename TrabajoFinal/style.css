@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #c4d4e0;
+    color: #04474b;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #345c9a;
+    color: #e7e7e5;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);;
+}
+h1{
+    font-size: 4rem;
+    margin: 0;
+}
+h2{
+    color: #fffdfb;
+    font-size: 2rem;
+    
+}
+.mensaje{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #c4d4e0;
+
+}
+section.formularioAU,
+section.avisos
+section.formInas{
+    padding: 50px;
+    background-color: #04474b;
+    margin: 20px auto;
+    text-align: center;
+    color: #c4d4e0;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.tituloForm{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e7e7e5;
+    text-align: center;
+}
+form input{
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 7px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+form button{
+    background-color: #b55c00;
+    color: #fffdfb;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button{
+    background-color: #e8c39e;
+    color: #b55c00;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 24px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    margin-left: 10px auto;
+    margin-inline: 15px auto;
+    text-decoration: none;
+}
+
+
+form select, form textarea{
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+
+}
+#leg{
+    max-width: 3rem;
+    max-height: 1.5rem;
+}
+#nombre{
+    max-width: 25rem;
+    min-height: 1rem;
+}
+#listaEmpleados{
+    background-color: #04474b;
+    padding: 50px;
+    color: #b55c00;
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    display: none;
+
+}
+#listaInasistencia{
+    background-color: #04474b;
+    padding: 50px;
+    color: #b55c00;
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+}
+#oculto{
+    display: none;
+}
+#mensajeEstado{
+    margin-top: 12px;
+    font-weight: bold;
+    color: #b55c00;
+}
+
+#mensajeEstado.error{
+    color: #b71c1c;
+}
+.volver{
+    color: #e8c39e;
+}
+
+footer{
+    text-align: center;
+    margin: 20px;
+}

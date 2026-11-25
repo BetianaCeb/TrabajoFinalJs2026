@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .grail{
+            display: grid;
+            min-width: 100vh;
+            grid-template: 
+            "header header header" auto
+            "nav main aside" 1fr 
+            "footer footer footer" auto / 200px 1fr 200px;
+            gap: 8px;
+            padding: 8px
+        ;
+        }
+        header{
+            grid-area: header; 
+            background-color: red;
+
+        }
+        nav{
+            grid-area: nav; 
+            background-color: aqua;
+        }
+        main{
+            grid-area: main; 
+            background-color: blueviolet;
+
+        }
+        aside{
+            grid-area: aside; 
+            background-color: chocolate;
+        }
+        footer{
+            grid-area: footer; 
+            background-color: aquamarine;
+        }
+
+        header,
+        nav,
+        main,
+        aside,
+        footer{
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            border: 6px;
+        }
+        @media (max-width: 500px){
+            .grail{
+                grid-template: "header" auto
+                "nav" auto
+                "main" auto
+                "aside" auto
+                "footer" auto / 1fr;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="grail">
+        <header>Header</header>
+        <aside>Aside</aside>
+        <nav>NavBar</nav>
+        <main>Main</main>
+            <div class="Galeria">
+                <div><img src="" alt=""></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+
+            </div>
+        
+        <footer>Footer</footer>
+
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+.uno{
+    background-color: green;
+    
+}
+.dos{
+    background-color: blue;
+    
+
+}
+.tres{
+    background-color: black;
+
+}

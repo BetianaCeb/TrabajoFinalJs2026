@@ -1,0 +1,24 @@
+table{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 25px #002;
+    border-spacing: 10px;
+
+}
+td,
+th{
+    text-align: center;
+    padding: 6px;
+    font-family: sans-serif;
+    border: none;
+    border-bottom: 1px solid #004;
+
+}
+td{
+    color: #444;
+}
+.footer__total, .total__dato{
+    border: none;
+
+}
